@@ -9,6 +9,10 @@ file = "README.md"
 hash = "780cf83737437f0e89a166ece041a26a48d2571dfb7ae76bb3be945191ae50d7"
 
 [[files]]
+file = "config/blanket_client-fixes.json"
+hash = "a69aba00480f8150e61de2eb12ddff926fb9f90e78cfdc1e191e6d320fe34fa6"
+
+[[files]]
 file = "config/lceui/config.json5"
 hash = "8d8af4ef0ea65025567d34189760b15a5476c5fa1d7890744f1fb6db61f73a14"
 
@@ -57,6 +61,10 @@ file = "config/yosbr/config/NoChatReports/README.md"
 hash = "f0decb31d974351dd9337caf02320d22470adec6b96411bb84596cdc73d77dac"
 
 [[files]]
+file = "config/yosbr/config/badoptimizations.txt"
+hash = "f043b31a1fd029cbcd999a9ba184a1f66b4a8a8f020881c59b870436d8de1103"
+
+[[files]]
 file = "config/yosbr/config/bestylewither.toml"
 hash = "45841f235c7fe79b5a7710e86a6e94c73a871b7a430bb9592b60c2981f806698"
 
@@ -79,6 +87,14 @@ hash = "d1dc236273a4df469504655df716c9a4abf693083ec75da0572f6bf21f195bf4"
 [[files]]
 file = "config/yosbr/config/cpm.json"
 hash = "d2c41ad7f4a988dac14c570ec5863bbcb5ac8e5e112b09ff2ddb862112864955"
+
+[[files]]
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "b75ccc24ddb7fdd8e91f16a568885abd88b00876e9ffe40578d1cf0ce6d7371d"
+
+[[files]]
+file = "config/yosbr/config/entityculling.json"
+hash = "3955e3822546d7193b0432b91ba89e233a7b4aaf88cbf2883d1931c77bbc9fdb"
 
 [[files]]
 file = "config/yosbr/config/fabric/indigo-renderer.properties"
@@ -149,6 +165,10 @@ file = "config/yosbr/config/sodium-options.json"
 hash = "5c830d8984deef7011a23ac485d6cc1f754b036ff7cab3362119f7a5d79e417f"
 
 [[files]]
+file = "config/yosbr/config/threadtweak.json"
+hash = "545cbe317c5146bacb9e13c7c03a605f0b6bd6e1ddaf1a05f8be8537d6f8b0ce"
+
+[[files]]
 file = "config/yosbr/config/voicechat/translations.properties"
 hash = "b8215b84232be41438ffb7c7304b57b0677c9cad49b717db59900872080adf20"
 
@@ -170,7 +190,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "aeb3ce3e02024566b5acd3b1a0aa3dff5488dc892fe919ea72491398c6a83336"
+hash = "92c910207b435263935903146cd3d15f76179ff9567628811d28a0bc57a8672d"
 
 [[files]]
 file = "config/yosbr/servers.dat"
@@ -425,13 +445,33 @@ hash = "0bc01fff2527fde03869c0cf3093fb13fa560ddfb2e7b3cad6c64a6f8d4e1551"
 metafile = true
 
 [[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "f32c30de1ae7dbeeae00b654eb15ea358c6d26f631dc292bdb88dba9c30a8cc8"
+metafile = true
+
+[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "c6a75b6bdbb197e696270e21d6b48293ef93f5f1d897fd812a6d52dc1d4a1c4a"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "ef5594aca1039c06c502f9d3f4a709195b727abb3b2893652dfe38d983ff87c2"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "20bd4cbff43edcff50312e24802538df9c264507fa35c8c8713f35401c03bbf8"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "f04757ea123fd6992ca60445dc8b9a57763bf07fff7b0e40209ad096d48319e1"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "4ba3ed5a7d60f618df89d9cd776a6ca79f8867090bd47c24ae3e6de6eafe594d"
 metafile = true
 
 [[files]]
@@ -526,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "3d01a993f8dae2bfc276d412e7ea603d7b064e70248a67136fc591243c80f02c"
+hash = "181bfe0cfc3bd30e07dc328dac9fed42705ef5cd1977ee86e48942e8d0e47ee1"
 metafile = true
 
 [[files]]
@@ -552,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "f495e0fbc5cd0994c9adb51f477d3c697986eccd5b4399513a985c5c578af74e"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "56a0e243140dc1dbdb89c5a7a1cbcbe6e8d6da5499242bd1eabf548bbb8e3481"
 metafile = true
 
 [[files]]
